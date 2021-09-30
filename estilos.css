@@ -8,6 +8,8 @@
     margin-right: auto;
     display: block;
 }
+
+
 .font-title  {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-family: "Arrial";
@@ -31,3 +33,12 @@
     font-size: x-small;
 }
 
+.bg-gray{
+    background-color: grey;
+}
+
+.carousel-inner> .carousel-item> img {
+    height: 200px;
+    width: 50px; 
+    
+   }
