@@ -1,0 +1,33 @@
+.icon img{
+    width:25px;
+    height:20px;
+}
+
+.center img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.font-title  {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Arrial";
+    font-size: larger;
+    color: red;
+    font-style: italic;
+}
+
+.font-color-seccion{
+    color:blacks;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Arial Narrow";
+    font-size: larger;
+    font-style: oblique;
+
+}
+
+.font-sec {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Arial";
+    font-size: x-small;
+}
+
