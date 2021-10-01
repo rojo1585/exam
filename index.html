@@ -11,8 +11,8 @@
     <title>Grid</title>
   </head>
   <body>
-
-    <div class="menu_bar font-title"  id="static-scroll"> <a> peroosajrfas</a></div>
+    <!--Imagen estatica-->
+    <div class="menu_bar"  id="static-scroll" ><img src="..\exam\img\clog.svg"  alt=""  width="50" height="50"></div>
       <!--top-- lo de amero arriva -->
     <div class="container" id="">
         <div class="row aling-items-center">
@@ -21,7 +21,7 @@
                 <nav class="navbar navbar-light ">
                     <div class="container-fluid">
                       <a class="navbar-brand" href="#">
-                        <img src="..\exam\img\cuidateplus.svg" alt="" width="50" height="50" class="d-inline-block align-text-top">CuidatePlus</a>
+                        <img src="..\exam\img\cuidateplus.svg" id="" alt="" width="50" height="50" class="d-inline-block align-text-top">CuidatePlus</a>
                     </div>
                 </nav>
             </div>
@@ -309,9 +309,9 @@
 
 
       <div class="container mt-3 ">
-        <div class="row">
+        <div class="row justify-content-center">
           <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 mb-1 ">
-            <div class="card" style="width: 13rem;">
+            <div class="card" style="width: 12rem;">
               <img src="..\exam\img\publi3.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -319,7 +319,7 @@
             </div>
           </div>
           <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 mb-1">
-            <div class="card" style="width: 13rem;">
+            <div class="card" style="width: 12rem;">
               <img src="..\exam\img\publi3.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -327,7 +327,7 @@
             </div>
           </div>
           <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 mb-1 ">
-            <div class="card" style="width: 13rem;">
+            <div class="card" style="width: 12rem;">
               <img src="..\exam\img\publi3.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -335,8 +335,8 @@
             </div>
           </div>
 
-          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 .d-md-none .d-lg-block">
-            <div class="card" style="width: 13rem;">
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 .d-md-none .d-lg-block">
+            <div class="card" style="width: 12rem;">
               <img src="..\exam\img\publi3.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -373,7 +373,7 @@
             </div>
           </div>
 
-          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6  col-12 .d-md-none .d-lg-block">
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6  col-12 .d-md-none .d-lg-block">
             <div class="card" style="width: 13rem;">
               <img src="..\exam\img\publi3.jpg" class="card-img-top" alt="...">
               <div class="card-body">
@@ -384,11 +384,11 @@
         </div>
       </div>
 
-      <div class="container mt-3">
-        <div class="row">
-          <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 mb-1 ">
-            <div class="card" style="width: 35rem;">
-              <img src="..\exam\img\publi3.jpg" class="card-img-top" alt="...">
+      <div class="container mt-3 center">
+        <div class="row justify-content-lg-center">
+          <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 mb-1  d-none d-sm-block  d-sm-none d-md-block" @media>
+            <div class="card" style="width: 28rem;">
+              <img src="..\exam\img\publi3.jpg" class="card-img-top jus" alt="...">
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
@@ -416,9 +416,15 @@
       </div>
       
       <!--Seccion del body mostrar mas informacion oculta-->
-      <button data-toggle="collapse" data-target="#demo">Mas contenido</button>
-
-      <div id="demo" class="collapse">
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col text-center">
+            <button id="hide" href="#" data-toggle="collapse" data-target="#first-inf">Mas contenido</button>
+          </div>
+        </div>
+        
+      </div> 
+      <div id="first-inf" class="collapse">
         <div class="container mt-3 ">
           <div class="row">
             <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 mb-1 ">
@@ -446,7 +452,53 @@
               </div>
             </div>
   
-            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 .d-md-none .d-lg-block">
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 .d-md-none .d-lg-block">
+              <div class="card" style="width: 13rem;">
+                <img src="..\exam\img\publi3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container mt-5">
+          <div class="row">
+            <div class="col text-center">
+              <button data-toggle="collapse" data-target="#second-inf">Mas contenido</button>
+            </div>
+          </div>
+      </div>
+
+      <div id="second-inf" class="collapse">
+        <div class="container mt-3 ">
+          <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 mb-1 ">
+              <div class="card" style="width: 13rem;">
+                <img src="..\exam\img\publi3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 mb-1">
+              <div class="card" style="width: 13rem;">
+                <img src="..\exam\img\publi3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 mb-1 ">
+              <div class="card" style="width: 13rem;">
+                <img src="..\exam\img\publi3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 .d-md-none .d-lg-block">
               <div class="card" style="width: 13rem;">
                 <img src="..\exam\img\publi3.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -461,28 +513,32 @@
 
 
       <!-- Footer -->
-<footer class="text-center text-lg-start bg-light text-muted">
+<footer class="text-center text-lg-start bg-light text-muted  mt-5">
   <!-- Section: Social media -->
-  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-    <div>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-facebook-f"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-twitter"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-google"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-instagram"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-linkedin"></i>
-      </a>
-      <a href="https://github.com/rojo1585/exam" class="me-4 text-reset">
-        <i class="fab fa-github"></i>
-      </a>
+  <section class="d-flex justify-content-center p-4 border-bottom ">
+    <div class="row justify-content-center">
+      <div class="col-lg-12 col-xl-12 col-md-12">
+        <div class="center">
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/rojo1585/exam" class="me-4 text-reset">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
     </div>
   </section>
  
@@ -505,7 +561,7 @@
   <!-- Copyright -->
   <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
     © 2021 Copyright:
-    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">RojoCompany</a>
+    <a class="text-reset fw-bold" href="https://www.facebook.com/Rojo.Your.Dady">RojoCompany</a>
   </div>
   <!-- Copyright -->
 </footer>
